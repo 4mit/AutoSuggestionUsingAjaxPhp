@@ -38,7 +38,7 @@
 				$.ajax({
 					url:"autoSugg.php", // this is where you are sending request to 
 					method:"POST",
-					data:{query:query},
+					data:{query:querydata},
 					success:function(data)
 					{
 						$('#students').fadeIn("slow");
